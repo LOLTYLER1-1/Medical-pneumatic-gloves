@@ -1,0 +1,97 @@
+** Drc report for board.kicad_pcb **
+** Created on 2026-07-30T21:47:53 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 24 DRC violations **
+[starved_thermal]: 缓释热焊盘 (花焊盘) 与填充区的连接不完整 (层 Bottom Layer; 1 条引线与死铜相连)
+    Local override; error
+    @(99.8730 mm, 69.8730 mm): Zone [GND] on Bottom Layer, priority 0
+    @(112.0000 mm, 95.8100 mm): PTH pad 5 [GND] of J1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(112.0000 mm, 116.0000 mm): Footprint J2
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(156.0000 mm, 82.0000 mm): Footprint C1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(166.0000 mm, 122.0000 mm): Footprint D1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(130.0000 mm, 82.0000 mm): Footprint U1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(148.0000 mm, 82.0000 mm): Footprint C2
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(148.0000 mm, 82.0000 mm): Footprint C2
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(164.0000 mm, 110.0000 mm): Footprint D2
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(150.0000 mm, 122.0000 mm): Footprint Q1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(112.0000 mm, 92.0000 mm): Footprint J1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(166.0000 mm, 82.0000 mm): Footprint T3
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(166.0000 mm, 82.0000 mm): Footprint T3
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(166.0000 mm, 82.0000 mm): Footprint T3
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(148.0000 mm, 99.0000 mm): Footprint U2
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(126.0000 mm, 92.0000 mm): Footprint R1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(126.0000 mm, 92.0000 mm): Footprint R1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(126.0000 mm, 92.0000 mm): Footprint R1
+[lib_footprint_issues]: 当前配置中不包含封装库 '医用手套驱动板-easyedapro'
+    Local override; warning
+    @(126.0000 mm, 92.0000 mm): Footprint R1
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(146.5000 mm, 79.8000 mm): Segment of C2 on Top Silkscreen Layer
+    @(120.0000 mm, 123.5000 mm): PCB text 'C3' on Top Silkscreen Layer
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(146.2000 mm, 120.0000 mm): Segment of Q1 on Top Silkscreen Layer
+    @(150.0000 mm, 119.5000 mm): PCB text 'Q1' on Top Silkscreen Layer
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(146.5000 mm, 79.8000 mm): Segment of C2 on Top Silkscreen Layer
+    @(148.0000 mm, 79.5000 mm): PCB text 'C2' on Top Silkscreen Layer
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(161.5000 mm, 86.0000 mm): Segment of T3 on Top Silkscreen Layer
+    @(172.3500 mm, 122.0000 mm): PTH pad 2 [+12V] of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.5075 mm, 81.7375 mm): Segment of C1 on Top Silkscreen Layer
+    @(150.5400 mm, 82.0000 mm): PTH pad 2 [GND] of C2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.7600 mm, 83.5075 mm): Segment of C1 on Top Silkscreen Layer
+    @(150.5400 mm, 82.0000 mm): PTH pad 2 [GND] of C2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

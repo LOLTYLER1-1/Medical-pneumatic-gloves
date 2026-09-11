@@ -1,0 +1,26 @@
+# Vitis / Eclipse 工作区垃圾（不入库）
+06_PS/VITIS/.metadata/
+06_PS/VITIS/.analytics
+06_PS/VITIS/RemoteSystemsTempFiles/
+06_PS/VITIS/IDE.log
+
+# Vitis 平台/BSP 生成物（46MB 自动生成代码，可从 system_top.xsa 重新生成）
+06_PS/VITIS/med_glove_platform/
+06_PS/VITIS/medical_glove_app_system/
+
+# 编译产物
+**/Debug/
+**/_ide/
+*.o
+*.d
+*.a
+*.elf
+*.map
+*.log
+
+# 操作系统垃圾
+Thumbs.db
+Desktop.ini
+
+# Python 工具脚本（电路图/PCB/仿真生成校验脚本，仅本地使用，不入库）
+*.py

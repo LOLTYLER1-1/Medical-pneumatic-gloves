@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="medical_glove_app" location="D:/VITIS/medical_glove_app" platform="D:/VITIS/med_glove_platform/export/med_glove_platform/med_glove_platform.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="medical_glove_app_system" sysConfig="med_glove_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="b1b44a1ad9694e05210a57554f6af566">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.947953555">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.415218886" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
